@@ -1,0 +1,8 @@
+[package]
+name = "agent-loop"
+version = "0.1.0"
+edition = "2021"
+
+# Deliberately zero dependencies: the whole loop is plain Rust.
+# Lesson 10-03 swaps the simple Args map for serde_json + schemars.
+[dependencies]

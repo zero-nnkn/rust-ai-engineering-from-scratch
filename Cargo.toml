@@ -1,0 +1,5 @@
+# Every lesson's code/ folder is its own crate, so you can run any lesson from
+# the repository root with: cargo run -p <package-name>
+[workspace]
+resolver = "2"
+members = ["phases/*/*/code"]

@@ -1,0 +1,8 @@
+[package]
+name = "reviewing-agent-rust"
+version = "0.1.0"
+edition = "2021"
+
+# A review exercise: agent-written code that builds, passes clippy and passes
+# its tests, and is still not mergeable. See ../docs/en.md.
+[dependencies]

@@ -1,0 +1,886 @@
+{
+  "title": "Rust for AI Engineers — From Scratch",
+  "tagline": "Learn the language with a tutor. Build with an agent. Stay in control.",
+  "phases": [
+    {
+      "id": "00",
+      "slug": "setup-and-tooling",
+      "name": "Setup & Tooling",
+      "hours": 6,
+      "motto": "A fast feedback loop is the first thing you build.",
+      "lessons": [
+        [
+          "dev-environment",
+          "rustup, cargo & rust-analyzer",
+          "Build",
+          "verify script"
+        ],
+        [
+          "cargo-workflow",
+          "Cargo: build, run, test, workspaces",
+          "Build",
+          "cargo cheat sheet"
+        ],
+        [
+          "clippy-and-fmt",
+          "clippy, rustfmt & reading compiler errors",
+          "Learn",
+          "prompt: explain-compiler-error"
+        ],
+        [
+          "testing-basics",
+          "Unit, integration & doc tests",
+          "Build",
+          "test template"
+        ],
+        [
+          "python-to-rust-map",
+          "Python → Rust mental map",
+          "Learn",
+          "cheat sheet"
+        ],
+        [
+          "ai-as-tutor",
+          "Learning Rust with an AI tutor",
+          "Learn",
+          "skill: learn-rust"
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "id": "01",
+      "slug": "core-language",
+      "name": "Core Language",
+      "hours": 14,
+      "motto": "Types are documentation the compiler checks.",
+      "lessons": [
+        [
+          "variables-and-types",
+          "Variables, mutability & scalar types",
+          "Learn",
+          "—"
+        ],
+        [
+          "functions-and-control-flow",
+          "Functions, expressions & control flow",
+          "Build",
+          "—"
+        ],
+        [
+          "structs",
+          "Structs & methods (classes without inheritance)",
+          "Build",
+          "—"
+        ],
+        [
+          "enums-and-match",
+          "Enums & pattern matching",
+          "Build",
+          "—"
+        ],
+        [
+          "option-and-result",
+          "Option & Result: no None surprises, no exceptions",
+          "Build",
+          "cheat sheet"
+        ],
+        [
+          "collections",
+          "Vec, HashMap, HashSet, VecDeque",
+          "Build",
+          "—"
+        ],
+        [
+          "strings",
+          "String vs &str, UTF-8 & text processing",
+          "Build",
+          "—"
+        ],
+        [
+          "modules-and-crates",
+          "Modules, crates & visibility",
+          "Build",
+          "project template"
+        ],
+        [
+          "project-word-stats",
+          "Project: token & word statistics CLI",
+          "Build",
+          "CLI tool"
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "id": "02",
+      "slug": "ownership-and-memory",
+      "name": "Ownership & Memory",
+      "hours": 16,
+      "motto": "Every value has exactly one owner. Everything else follows.",
+      "lessons": [
+        [
+          "ownership-and-move",
+          "Ownership & move semantics",
+          "Build",
+          "prompt: ownership-explainer"
+        ],
+        [
+          "borrowing",
+          "Borrowing: &T and &mut T",
+          "Build",
+          "—"
+        ],
+        [
+          "slices",
+          "Slices & views (zero-copy text)",
+          "Build",
+          "—"
+        ],
+        [
+          "lifetimes",
+          "Lifetimes without fear",
+          "Learn",
+          "—"
+        ],
+        [
+          "smart-pointers",
+          "Box, Rc, Arc, RefCell, Mutex",
+          "Build",
+          "decision chart"
+        ],
+        [
+          "drop-and-raii",
+          "Drop & RAII: resources that clean themselves up",
+          "Build",
+          "—"
+        ],
+        [
+          "stack-heap-and-cost",
+          "Stack vs heap & the real cost of clone()",
+          "Learn",
+          "—"
+        ],
+        [
+          "borrow-checker-patterns",
+          "Borrow checker battle patterns",
+          "Learn",
+          "skill: borrow-checker-coach"
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "id": "03",
+      "slug": "abstraction",
+      "name": "Traits, Generics & Errors",
+      "hours": 16,
+      "motto": "Traits are protocols the compiler enforces.",
+      "lessons": [
+        [
+          "traits",
+          "Traits: Python Protocols with teeth",
+          "Build",
+          "—"
+        ],
+        [
+          "generics",
+          "Generics & trait bounds",
+          "Build",
+          "—"
+        ],
+        [
+          "trait-objects",
+          "Trait objects & dynamic dispatch (dyn Tool)",
+          "Build",
+          "—"
+        ],
+        [
+          "closures",
+          "Closures & function types",
+          "Build",
+          "—"
+        ],
+        [
+          "iterators",
+          "Iterators: lazy pipelines like generators",
+          "Build",
+          "—"
+        ],
+        [
+          "error-handling",
+          "Error handling with thiserror & anyhow",
+          "Build",
+          "error template"
+        ],
+        [
+          "design-patterns",
+          "Newtype, builder, typestate",
+          "Build",
+          "—"
+        ],
+        [
+          "declarative-macros",
+          "macro_rules! basics",
+          "Learn",
+          "—"
+        ]
+      ],
+      "part": 1
+    },
+    {
+      "id": "04",
+      "slug": "agentic-rust",
+      "name": "The Build Loop: Developing with a Coding Agent",
+      "hours": 20,
+      "motto": "Your idea, the agent's code, your review. Repeat until it's right.",
+      "lessons": [
+        [
+          "the-build-loop",
+          "The build loop: idea → agent code → review → repeat",
+          "Learn",
+          "skill: build-loop"
+        ],
+        [
+          "agent-setup",
+          "Setting up a coding agent for a Rust repo (CLAUDE.md / AGENTS.md)",
+          "Build",
+          "CLAUDE.md template"
+        ],
+        [
+          "hooks-and-guardrails",
+          "Hooks: automatic fmt, clippy & tests after every agent edit",
+          "Build",
+          "hook scripts"
+        ],
+        [
+          "idea-to-spec",
+          "From idea to spec: types and tests the agent must satisfy",
+          "Build",
+          "spec template"
+        ],
+        [
+          "reviewing-agent-rust",
+          "Reviewing agent-written Rust: the smells",
+          "Build",
+          "skill: rust-review"
+        ],
+        [
+          "debugging-with-agents",
+          "Debugging with agents without outsourcing your understanding",
+          "Learn",
+          "prompt: debug-partner"
+        ],
+        [
+          "refactoring-at-scale",
+          "Large refactors with agents: plan, slice, verify",
+          "Build",
+          "—"
+        ],
+        [
+          "porting-python-to-rust",
+          "Porting Python to Rust with an agent: parity tests first",
+          "Build",
+          "port playbook"
+        ],
+        [
+          "parallel-agents-worktrees",
+          "Parallel agents with git worktrees",
+          "Build",
+          "—"
+        ],
+        [
+          "skills-and-subagents",
+          "Skills & subagents for your Rust workflow",
+          "Build",
+          "skill + subagent"
+        ],
+        [
+          "verification-gates",
+          "Verification gates: property tests, miri, fuzzing, benchmarks",
+          "Build",
+          "CI gates"
+        ],
+        [
+          "project-agent-built-crate",
+          "Project: you write the spec, the agent writes the crate",
+          "Build",
+          "crate"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "05",
+      "slug": "data-and-cli",
+      "name": "Data, Serialization & CLIs",
+      "hours": 14,
+      "motto": "AI is mostly moving data around. Do it fast and correctly.",
+      "lessons": [
+        [
+          "serde",
+          "serde: structs ⇄ JSON (pydantic, compiled)",
+          "Build",
+          "—"
+        ],
+        [
+          "jsonl-datasets",
+          "Streaming JSONL datasets",
+          "Build",
+          "—"
+        ],
+        [
+          "clap-cli",
+          "CLIs with clap",
+          "Build",
+          "CLI template"
+        ],
+        [
+          "file-io-and-mmap",
+          "File I/O, buffering & memory maps",
+          "Build",
+          "—"
+        ],
+        [
+          "regex-and-text",
+          "Regex & text cleaning",
+          "Build",
+          "—"
+        ],
+        [
+          "polars-and-arrow",
+          "Polars & Arrow from Rust",
+          "Build",
+          "—"
+        ],
+        [
+          "project-dataset-inspector",
+          "Project: dataset inspector / dedup CLI",
+          "Build",
+          "CLI tool"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "06",
+      "slug": "concurrency-and-performance",
+      "name": "Concurrency & Performance",
+      "hours": 14,
+      "motto": "No GIL. No excuses. No data races.",
+      "lessons": [
+        [
+          "threads",
+          "Threads & move closures",
+          "Build",
+          "—"
+        ],
+        [
+          "channels",
+          "Channels & message passing",
+          "Build",
+          "—"
+        ],
+        [
+          "shared-state",
+          "Shared state: Arc<Mutex<T>>, RwLock, atomics",
+          "Build",
+          "—"
+        ],
+        [
+          "rayon",
+          "Data parallelism with rayon",
+          "Build",
+          "—"
+        ],
+        [
+          "benchmarking",
+          "Benchmarking with criterion",
+          "Build",
+          "bench template"
+        ],
+        [
+          "profiling",
+          "Profiling: flamegraphs & allocation",
+          "Learn",
+          "—"
+        ],
+        [
+          "project-parallel-chunker",
+          "Project: parallel document chunker",
+          "Build",
+          "library"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "07",
+      "slug": "async-rust",
+      "name": "Async Rust",
+      "hours": 16,
+      "motto": "Agents spend most of their life waiting on I/O.",
+      "lessons": [
+        [
+          "futures-and-async",
+          "Futures & async/await (vs asyncio)",
+          "Learn",
+          "—"
+        ],
+        [
+          "tokio-runtime",
+          "The tokio runtime & tasks",
+          "Build",
+          "—"
+        ],
+        [
+          "http-with-reqwest",
+          "HTTP clients with reqwest",
+          "Build",
+          "—"
+        ],
+        [
+          "streams-and-sse",
+          "Streams & server-sent events",
+          "Build",
+          "—"
+        ],
+        [
+          "select-timeouts-cancellation",
+          "select!, timeouts & cancellation",
+          "Build",
+          "—"
+        ],
+        [
+          "retries-and-rate-limits",
+          "Retries, backoff & rate limiting",
+          "Build",
+          "middleware"
+        ],
+        [
+          "send-sync-pitfalls",
+          "Send, Sync & async pitfalls",
+          "Learn",
+          "—"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "08",
+      "slug": "web-services",
+      "name": "Web Services",
+      "hours": 12,
+      "motto": "Every agent needs an API surface.",
+      "lessons": [
+        [
+          "axum-basics",
+          "axum: routing, extractors, JSON",
+          "Build",
+          "—"
+        ],
+        [
+          "state-and-middleware",
+          "App state, middleware & tower",
+          "Build",
+          "—"
+        ],
+        [
+          "tracing",
+          "Structured logging with tracing",
+          "Build",
+          "—"
+        ],
+        [
+          "websockets-and-streaming",
+          "WebSockets & streaming responses",
+          "Build",
+          "—"
+        ],
+        [
+          "databases-sqlx",
+          "Databases with sqlx",
+          "Build",
+          "—"
+        ],
+        [
+          "docker-deploy",
+          "Small, fast Docker images",
+          "Build",
+          "Dockerfile"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "09",
+      "slug": "llm-engineering",
+      "name": "LLM Engineering in Rust",
+      "hours": 18,
+      "motto": "The model is an API. Everything around it is software.",
+      "lessons": [
+        [
+          "llm-api-client",
+          "An LLM API client from scratch",
+          "Build",
+          "crate: llm-client"
+        ],
+        [
+          "streaming-tokens",
+          "Streaming tokens end to end",
+          "Build",
+          "—"
+        ],
+        [
+          "structured-outputs",
+          "Structured outputs with serde + schemars",
+          "Build",
+          "—"
+        ],
+        [
+          "tokenizers",
+          "Tokenizers: BPE from scratch, then the tokenizers crate",
+          "Build",
+          "—"
+        ],
+        [
+          "embeddings",
+          "Embeddings & cosine similarity",
+          "Build",
+          "—"
+        ],
+        [
+          "vector-index",
+          "A vector index from scratch (flat → HNSW-lite)",
+          "Build",
+          "crate: vindex"
+        ],
+        [
+          "rag-pipeline",
+          "RAG pipeline: chunk, embed, retrieve, generate",
+          "Build",
+          "service"
+        ],
+        [
+          "prompt-caching-and-cost",
+          "Caching, cost & token budgets",
+          "Build",
+          "—"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "10",
+      "slug": "agent-engineering",
+      "name": "Agent Engineering",
+      "hours": 20,
+      "motto": "An agent is a loop. Build the loop yourself.",
+      "lessons": [
+        [
+          "the-agent-loop",
+          "The agent loop",
+          "Build",
+          "skill: agent-loop"
+        ],
+        [
+          "tool-trait-and-registry",
+          "Tool trait & registry",
+          "Build",
+          "—"
+        ],
+        [
+          "tool-schemas",
+          "Typed tool schemas from Rust structs",
+          "Build",
+          "—"
+        ],
+        [
+          "context-and-memory",
+          "Context windows & memory",
+          "Build",
+          "—"
+        ],
+        [
+          "planning-and-reflection",
+          "Planning, reflection & self-correction",
+          "Build",
+          "—"
+        ],
+        [
+          "guardrails-and-budgets",
+          "Guardrails, step limits & budgets",
+          "Build",
+          "—"
+        ],
+        [
+          "agent-evals",
+          "Evaluating agents: traces & test suites",
+          "Build",
+          "eval harness"
+        ],
+        [
+          "multi-agent",
+          "Multi-agent orchestration with channels",
+          "Build",
+          "—"
+        ],
+        [
+          "agent-frameworks",
+          "Rust agent frameworks (rig & co.) vs hand-rolled",
+          "Learn",
+          "—"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "11",
+      "slug": "tools-and-protocols",
+      "name": "Tools & Protocols (MCP)",
+      "hours": 16,
+      "motto": "Tools are how agents touch the world. Make them safe and fast.",
+      "lessons": [
+        [
+          "json-rpc",
+          "JSON-RPC 2.0 from scratch",
+          "Build",
+          "—"
+        ],
+        [
+          "mcp-stdio-server",
+          "An MCP server over stdio, by hand",
+          "Build",
+          "MCP server"
+        ],
+        [
+          "mcp-http-transport",
+          "MCP over HTTP",
+          "Build",
+          "—"
+        ],
+        [
+          "mcp-client",
+          "An MCP client: discover & call tools",
+          "Build",
+          "—"
+        ],
+        [
+          "mcp-official-sdk",
+          "Using the official Rust MCP SDK (rmcp)",
+          "Build",
+          "MCP server"
+        ],
+        [
+          "sandboxed-execution",
+          "Sandboxed tool execution (processes, limits, timeouts)",
+          "Build",
+          "—"
+        ],
+        [
+          "wasm-tools",
+          "WASM tools with wasmtime",
+          "Build",
+          "—"
+        ],
+        [
+          "tool-security",
+          "Tool security: permissions & prompt injection",
+          "Learn",
+          "checklist"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "12",
+      "slug": "python-interop",
+      "name": "Python Interop (PyO3)",
+      "hours": 14,
+      "motto": "Keep Python for orchestration. Move the hot path to Rust.",
+      "lessons": [
+        [
+          "pyo3-basics",
+          "PyO3: your first Python module in Rust",
+          "Build",
+          "—"
+        ],
+        [
+          "maturin",
+          "maturin: build & pip install",
+          "Build",
+          "project template"
+        ],
+        [
+          "numpy-interop",
+          "NumPy arrays without copies",
+          "Build",
+          "—"
+        ],
+        [
+          "releasing-the-gil",
+          "Releasing the GIL for real parallelism",
+          "Build",
+          "—"
+        ],
+        [
+          "async-bridge",
+          "Bridging asyncio and tokio",
+          "Build",
+          "—"
+        ],
+        [
+          "publishing-wheels",
+          "Publishing wheels with CI",
+          "Build",
+          "CI workflow"
+        ],
+        [
+          "project-fast-chunker",
+          "Project: Rust-accelerated text chunker for Python",
+          "Build",
+          "PyPI package"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "13",
+      "slug": "ml-inference",
+      "name": "ML & Inference in Rust",
+      "hours": 18,
+      "motto": "Understand the tensor, then trust the framework.",
+      "lessons": [
+        [
+          "tensors-from-scratch",
+          "Tensors from scratch: shapes, strides, matmul",
+          "Build",
+          "—"
+        ],
+        [
+          "autograd-from-scratch",
+          "A tiny autograd engine",
+          "Build",
+          "—"
+        ],
+        [
+          "candle-basics",
+          "candle: Hugging Face's Rust ML framework",
+          "Build",
+          "—"
+        ],
+        [
+          "burn-basics",
+          "burn: training in Rust",
+          "Build",
+          "—"
+        ],
+        [
+          "onnx-runtime",
+          "ONNX models with ort",
+          "Build",
+          "—"
+        ],
+        [
+          "local-llm-inference",
+          "Local LLM inference with quantized weights",
+          "Build",
+          "—"
+        ],
+        [
+          "inference-server",
+          "An OpenAI-compatible inference server",
+          "Build",
+          "service"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "14",
+      "slug": "production",
+      "name": "Production Rust",
+      "hours": 12,
+      "motto": "If it compiles, it's a start. If it's observed, it's production.",
+      "lessons": [
+        [
+          "config-and-secrets",
+          "Config & secrets",
+          "Build",
+          "—"
+        ],
+        [
+          "observability",
+          "Metrics & OpenTelemetry",
+          "Build",
+          "—"
+        ],
+        [
+          "testing-strategy",
+          "Property tests, snapshot tests & fuzzing",
+          "Build",
+          "—"
+        ],
+        [
+          "ci-pipeline",
+          "CI: fmt, clippy, test, audit",
+          "Build",
+          "CI workflow"
+        ],
+        [
+          "cross-compilation",
+          "Cross-compilation & static binaries",
+          "Build",
+          "—"
+        ],
+        [
+          "unsafe-and-ffi",
+          "unsafe & FFI: when and how",
+          "Learn",
+          "—"
+        ]
+      ],
+      "part": 2
+    },
+    {
+      "id": "15",
+      "slug": "capstones",
+      "name": "Capstone Projects",
+      "hours": 40,
+      "motto": "Ship something other people use.",
+      "lessons": [
+        [
+          "coding-agent-cli",
+          "A coding agent CLI (read, edit, run, test)",
+          "Build",
+          "binary"
+        ],
+        [
+          "mcp-tool-suite",
+          "A production MCP tool suite",
+          "Build",
+          "MCP server"
+        ],
+        [
+          "rag-service",
+          "A production RAG service",
+          "Build",
+          "service"
+        ],
+        [
+          "python-accelerator",
+          "A Rust-accelerated Python library",
+          "Build",
+          "PyPI package"
+        ],
+        [
+          "agent-runtime",
+          "A multi-agent runtime with evals",
+          "Build",
+          "crate"
+        ]
+      ],
+      "part": 2
+    }
+  ]
+}
