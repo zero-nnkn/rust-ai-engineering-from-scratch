@@ -6,14 +6,14 @@
 
 | # | Lesson | Type | Ships | Status |
 |---|---|---|---|---|
-| 01 | [Traits: Python Protocols with teeth](01-traits/docs/en.md) | Build | — | 📝 Outline |
-| 02 | [Generics & trait bounds](02-generics/docs/en.md) | Build | — | 📝 Outline |
-| 03 | [Trait objects & dynamic dispatch (dyn Tool)](03-trait-objects/docs/en.md) | Build | — | 📝 Outline |
-| 04 | [Closures & function types](04-closures/docs/en.md) | Build | — | 📝 Outline |
-| 05 | [Iterators: lazy pipelines like generators](05-iterators/docs/en.md) | Build | — | 📝 Outline |
-| 06 | [Error handling with thiserror & anyhow](06-error-handling/docs/en.md) | Build | error template | 📝 Outline |
-| 07 | [Newtype, builder, typestate](07-design-patterns/docs/en.md) | Build | — | 📝 Outline |
-| 08 | [macro_rules! basics](08-declarative-macros/docs/en.md) | Learn | — | 📝 Outline |
+| 01 | [Traits: Python Protocols with teeth](01-traits/docs/en.md) | Build | — | ✅ Complete |
+| 02 | [Generics & trait bounds](02-generics/docs/en.md) | Build | — | ✅ Complete |
+| 03 | [Trait objects & dynamic dispatch (dyn Tool)](03-trait-objects/docs/en.md) | Build | — | ✅ Complete |
+| 04 | [Closures & function types](04-closures/docs/en.md) | Build | — | ✅ Complete |
+| 05 | [Iterators: lazy pipelines like generators](05-iterators/docs/en.md) | Build | — | ✅ Complete |
+| 06 | [Error handling with thiserror & anyhow](06-error-handling/docs/en.md) | Build | error template | ✅ Complete |
+| 07 | [Newtype, builder, typestate](07-design-patterns/docs/en.md) | Build | — | ✅ Complete |
+| 08 | [macro_rules! basics](08-declarative-macros/docs/en.md) | Learn | — | ✅ Complete |
 
 Finish the phase with a quiz from your tutor (`/learn-rust quiz 03`), then move on.
 

@@ -23,7 +23,19 @@ name = "clippy-and-fmt"
 version = "0.1.0"
 
 [[package]]
+name = "closures"
+version = "0.1.0"
+
+[[package]]
 name = "collections"
+version = "0.1.0"
+
+[[package]]
+name = "declarative-macros"
+version = "0.1.0"
+
+[[package]]
+name = "design-patterns"
 version = "0.1.0"
 
 [[package]]
@@ -35,7 +47,19 @@ name = "enums-and-match"
 version = "0.1.0"
 
 [[package]]
+name = "error-handling"
+version = "0.1.0"
+
+[[package]]
 name = "functions-and-control-flow"
+version = "0.1.0"
+
+[[package]]
+name = "generics"
+version = "0.1.0"
+
+[[package]]
+name = "iterators"
 version = "0.1.0"
 
 [[package]]
@@ -88,6 +112,14 @@ version = "0.1.0"
 
 [[package]]
 name = "testing-basics"
+version = "0.1.0"
+
+[[package]]
+name = "trait-objects"
+version = "0.1.0"
+
+[[package]]
+name = "traits"
 version = "0.1.0"
 
 [[package]]

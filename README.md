@@ -102,6 +102,14 @@ Fully written lessons so far:
 - Phase 02 · [Drop & RAII: resources that clean themselves up](phases/02-ownership-and-memory/06-drop-and-raii/docs/en.md) — `cargo run -p drop-and-raii`
 - Phase 02 · [Stack vs heap & the real cost of clone()](phases/02-ownership-and-memory/07-stack-heap-and-cost/docs/en.md) — `cargo run -p stack-heap-and-cost`
 - Phase 02 · [Borrow checker battle patterns](phases/02-ownership-and-memory/08-borrow-checker-patterns/docs/en.md) — `cargo run -p borrow-checker-patterns`
+- Phase 03 · [Traits: Python Protocols with teeth](phases/03-abstraction/01-traits/docs/en.md) — `cargo run -p traits`
+- Phase 03 · [Generics & trait bounds](phases/03-abstraction/02-generics/docs/en.md) — `cargo run -p generics`
+- Phase 03 · [Trait objects & dynamic dispatch (dyn Tool)](phases/03-abstraction/03-trait-objects/docs/en.md) — `cargo run -p trait-objects`
+- Phase 03 · [Closures & function types](phases/03-abstraction/04-closures/docs/en.md) — `cargo run -p closures`
+- Phase 03 · [Iterators: lazy pipelines like generators](phases/03-abstraction/05-iterators/docs/en.md) — `cargo run -p iterators`
+- Phase 03 · [Error handling with thiserror & anyhow](phases/03-abstraction/06-error-handling/docs/en.md) — `cargo run -p error-handling`
+- Phase 03 · [Newtype, builder, typestate](phases/03-abstraction/07-design-patterns/docs/en.md) — `cargo run -p design-patterns`
+- Phase 03 · [macro_rules! basics](phases/03-abstraction/08-declarative-macros/docs/en.md) — `cargo run -p declarative-macros`
 - Phase 04 · [The build loop: idea → agent code → review → repeat](phases/04-agentic-rust/01-the-build-loop/docs/en.md)
 - Phase 04 · [Setting up a coding agent for a Rust repo (CLAUDE.md / AGENTS.md)](phases/04-agentic-rust/02-agent-setup/docs/en.md)
 - Phase 04 · [Hooks: automatic fmt, clippy & tests after every agent edit](phases/04-agentic-rust/03-hooks-and-guardrails/docs/en.md)
@@ -273,14 +281,14 @@ flowchart LR
 
 | # | Lesson | Type | Ships | Status |
 |---|---|---|---|---|
-| 01 | [Traits: Python Protocols with teeth](phases/03-abstraction/01-traits/docs/en.md) | Build | — | 📝 Outline |
-| 02 | [Generics & trait bounds](phases/03-abstraction/02-generics/docs/en.md) | Build | — | 📝 Outline |
-| 03 | [Trait objects & dynamic dispatch (dyn Tool)](phases/03-abstraction/03-trait-objects/docs/en.md) | Build | — | 📝 Outline |
-| 04 | [Closures & function types](phases/03-abstraction/04-closures/docs/en.md) | Build | — | 📝 Outline |
-| 05 | [Iterators: lazy pipelines like generators](phases/03-abstraction/05-iterators/docs/en.md) | Build | — | 📝 Outline |
-| 06 | [Error handling with thiserror & anyhow](phases/03-abstraction/06-error-handling/docs/en.md) | Build | error template | 📝 Outline |
-| 07 | [Newtype, builder, typestate](phases/03-abstraction/07-design-patterns/docs/en.md) | Build | — | 📝 Outline |
-| 08 | [macro_rules! basics](phases/03-abstraction/08-declarative-macros/docs/en.md) | Learn | — | 📝 Outline |
+| 01 | [Traits: Python Protocols with teeth](phases/03-abstraction/01-traits/docs/en.md) | Build | — | ✅ Complete |
+| 02 | [Generics & trait bounds](phases/03-abstraction/02-generics/docs/en.md) | Build | — | ✅ Complete |
+| 03 | [Trait objects & dynamic dispatch (dyn Tool)](phases/03-abstraction/03-trait-objects/docs/en.md) | Build | — | ✅ Complete |
+| 04 | [Closures & function types](phases/03-abstraction/04-closures/docs/en.md) | Build | — | ✅ Complete |
+| 05 | [Iterators: lazy pipelines like generators](phases/03-abstraction/05-iterators/docs/en.md) | Build | — | ✅ Complete |
+| 06 | [Error handling with thiserror & anyhow](phases/03-abstraction/06-error-handling/docs/en.md) | Build | error template | ✅ Complete |
+| 07 | [Newtype, builder, typestate](phases/03-abstraction/07-design-patterns/docs/en.md) | Build | — | ✅ Complete |
+| 08 | [macro_rules! basics](phases/03-abstraction/08-declarative-macros/docs/en.md) | Learn | — | ✅ Complete |
 
 </details>
 
