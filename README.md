@@ -85,6 +85,15 @@ Fully written lessons so far:
 - Phase 00 · [Unit, integration & doc tests](phases/00-setup-and-tooling/04-testing-basics/docs/en.md) — `cargo run -p testing-basics`
 - Phase 00 · [Python → Rust mental map](phases/00-setup-and-tooling/05-python-to-rust-map/docs/en.md) — `cargo run -p python-to-rust-map`
 - Phase 00 · [Learning Rust with an AI tutor](phases/00-setup-and-tooling/06-ai-as-tutor/docs/en.md)
+- Phase 01 · [Variables, mutability & scalar types](phases/01-core-language/01-variables-and-types/docs/en.md) — `cargo run -p variables-and-types`
+- Phase 01 · [Functions, expressions & control flow](phases/01-core-language/02-functions-and-control-flow/docs/en.md) — `cargo run -p functions-and-control-flow`
+- Phase 01 · [Structs & methods (classes without inheritance)](phases/01-core-language/03-structs/docs/en.md) — `cargo run -p structs`
+- Phase 01 · [Enums & pattern matching](phases/01-core-language/04-enums-and-match/docs/en.md) — `cargo run -p enums-and-match`
+- Phase 01 · [Option & Result: no None surprises, no exceptions](phases/01-core-language/05-option-and-result/docs/en.md) — `cargo run -p option-and-result`
+- Phase 01 · [Vec, HashMap, HashSet, VecDeque](phases/01-core-language/06-collections/docs/en.md) — `cargo run -p collections`
+- Phase 01 · [String vs &str, UTF-8 & text processing](phases/01-core-language/07-strings/docs/en.md) — `cargo run -p strings`
+- Phase 01 · [Modules, crates & visibility](phases/01-core-language/08-modules-and-crates/docs/en.md) — `cargo run -p modules-and-crates`
+- Phase 01 · [Project: token & word statistics CLI](phases/01-core-language/09-project-word-stats/docs/en.md) — `cargo run -p project-word-stats`
 - Phase 02 · [Ownership & move semantics](phases/02-ownership-and-memory/01-ownership-and-move/docs/en.md) — `cargo run -p ownership-and-move`
 - Phase 04 · [The build loop: idea → agent code → review → repeat](phases/04-agentic-rust/01-the-build-loop/docs/en.md)
 - Phase 04 · [Setting up a coding agent for a Rust repo (CLAUDE.md / AGENTS.md)](phases/04-agentic-rust/02-agent-setup/docs/en.md)
@@ -220,15 +229,15 @@ flowchart LR
 
 | # | Lesson | Type | Ships | Status |
 |---|---|---|---|---|
-| 01 | [Variables, mutability & scalar types](phases/01-core-language/01-variables-and-types/docs/en.md) | Learn | — | 📝 Outline |
-| 02 | [Functions, expressions & control flow](phases/01-core-language/02-functions-and-control-flow/docs/en.md) | Build | — | 📝 Outline |
-| 03 | [Structs & methods (classes without inheritance)](phases/01-core-language/03-structs/docs/en.md) | Build | — | 📝 Outline |
-| 04 | [Enums & pattern matching](phases/01-core-language/04-enums-and-match/docs/en.md) | Build | — | 📝 Outline |
-| 05 | [Option & Result: no None surprises, no exceptions](phases/01-core-language/05-option-and-result/docs/en.md) | Build | cheat sheet | 📝 Outline |
-| 06 | [Vec, HashMap, HashSet, VecDeque](phases/01-core-language/06-collections/docs/en.md) | Build | — | 📝 Outline |
-| 07 | [String vs &str, UTF-8 & text processing](phases/01-core-language/07-strings/docs/en.md) | Build | — | 📝 Outline |
-| 08 | [Modules, crates & visibility](phases/01-core-language/08-modules-and-crates/docs/en.md) | Build | project template | 📝 Outline |
-| 09 | [Project: token & word statistics CLI](phases/01-core-language/09-project-word-stats/docs/en.md) | Build | CLI tool | 📝 Outline |
+| 01 | [Variables, mutability & scalar types](phases/01-core-language/01-variables-and-types/docs/en.md) | Learn | — | ✅ Complete |
+| 02 | [Functions, expressions & control flow](phases/01-core-language/02-functions-and-control-flow/docs/en.md) | Build | — | ✅ Complete |
+| 03 | [Structs & methods (classes without inheritance)](phases/01-core-language/03-structs/docs/en.md) | Build | — | ✅ Complete |
+| 04 | [Enums & pattern matching](phases/01-core-language/04-enums-and-match/docs/en.md) | Build | — | ✅ Complete |
+| 05 | [Option & Result: no None surprises, no exceptions](phases/01-core-language/05-option-and-result/docs/en.md) | Build | cheat sheet | ✅ Complete |
+| 06 | [Vec, HashMap, HashSet, VecDeque](phases/01-core-language/06-collections/docs/en.md) | Build | — | ✅ Complete |
+| 07 | [String vs &str, UTF-8 & text processing](phases/01-core-language/07-strings/docs/en.md) | Build | — | ✅ Complete |
+| 08 | [Modules, crates & visibility](phases/01-core-language/08-modules-and-crates/docs/en.md) | Build | project template | ✅ Complete |
+| 09 | [Project: token & word statistics CLI](phases/01-core-language/09-project-word-stats/docs/en.md) | Build | CLI tool | ✅ Complete |
 
 </details>
 

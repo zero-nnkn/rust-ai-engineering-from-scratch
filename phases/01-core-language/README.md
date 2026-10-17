@@ -6,15 +6,15 @@
 
 | # | Lesson | Type | Ships | Status |
 |---|---|---|---|---|
-| 01 | [Variables, mutability & scalar types](01-variables-and-types/docs/en.md) | Learn | — | 📝 Outline |
-| 02 | [Functions, expressions & control flow](02-functions-and-control-flow/docs/en.md) | Build | — | 📝 Outline |
-| 03 | [Structs & methods (classes without inheritance)](03-structs/docs/en.md) | Build | — | 📝 Outline |
-| 04 | [Enums & pattern matching](04-enums-and-match/docs/en.md) | Build | — | 📝 Outline |
-| 05 | [Option & Result: no None surprises, no exceptions](05-option-and-result/docs/en.md) | Build | cheat sheet | 📝 Outline |
-| 06 | [Vec, HashMap, HashSet, VecDeque](06-collections/docs/en.md) | Build | — | 📝 Outline |
-| 07 | [String vs &str, UTF-8 & text processing](07-strings/docs/en.md) | Build | — | 📝 Outline |
-| 08 | [Modules, crates & visibility](08-modules-and-crates/docs/en.md) | Build | project template | 📝 Outline |
-| 09 | [Project: token & word statistics CLI](09-project-word-stats/docs/en.md) | Build | CLI tool | 📝 Outline |
+| 01 | [Variables, mutability & scalar types](01-variables-and-types/docs/en.md) | Learn | — | ✅ Complete |
+| 02 | [Functions, expressions & control flow](02-functions-and-control-flow/docs/en.md) | Build | — | ✅ Complete |
+| 03 | [Structs & methods (classes without inheritance)](03-structs/docs/en.md) | Build | — | ✅ Complete |
+| 04 | [Enums & pattern matching](04-enums-and-match/docs/en.md) | Build | — | ✅ Complete |
+| 05 | [Option & Result: no None surprises, no exceptions](05-option-and-result/docs/en.md) | Build | cheat sheet | ✅ Complete |
+| 06 | [Vec, HashMap, HashSet, VecDeque](06-collections/docs/en.md) | Build | — | ✅ Complete |
+| 07 | [String vs &str, UTF-8 & text processing](07-strings/docs/en.md) | Build | — | ✅ Complete |
+| 08 | [Modules, crates & visibility](08-modules-and-crates/docs/en.md) | Build | project template | ✅ Complete |
+| 09 | [Project: token & word statistics CLI](09-project-word-stats/docs/en.md) | Build | CLI tool | ✅ Complete |
 
 Finish the phase with a quiz from your tutor (`/learn-rust quiz 01`), then move on.
 

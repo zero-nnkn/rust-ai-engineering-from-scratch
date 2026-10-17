@@ -15,7 +15,31 @@ name = "clippy-and-fmt"
 version = "0.1.0"
 
 [[package]]
+name = "collections"
+version = "0.1.0"
+
+[[package]]
+name = "enums-and-match"
+version = "0.1.0"
+
+[[package]]
+name = "functions-and-control-flow"
+version = "0.1.0"
+
+[[package]]
+name = "modules-and-crates"
+version = "0.1.0"
+
+[[package]]
+name = "option-and-result"
+version = "0.1.0"
+
+[[package]]
 name = "ownership-and-move"
+version = "0.1.0"
+
+[[package]]
+name = "project-word-stats"
 version = "0.1.0"
 
 [[package]]
@@ -27,7 +51,19 @@ name = "reviewing-agent-rust"
 version = "0.1.0"
 
 [[package]]
+name = "strings"
+version = "0.1.0"
+
+[[package]]
+name = "structs"
+version = "0.1.0"
+
+[[package]]
 name = "testing-basics"
+version = "0.1.0"
+
+[[package]]
+name = "variables-and-types"
 version = "0.1.0"
 
 [[package]]

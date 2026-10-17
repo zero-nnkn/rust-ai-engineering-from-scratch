@@ -1,0 +1,11 @@
+[package]
+name = "project-word-stats"
+version = "0.1.0"
+edition = "2021"
+
+# The installed command is `word-stats`, not the package name.
+[[bin]]
+name = "word-stats"
+path = "src/main.rs"
+
+[dependencies]

@@ -1,0 +1,8 @@
+Ownership is Rust's most unique feature and has deep implications for the rest of the language.
+It enables Rust to make memory safety guarantees without needing a garbage collector.
+
+Every value has an owner. There can only be one owner at a time.
+When the owner goes out of scope, the value will be dropped.
+
+Borrowing lets code use a value without taking ownership of it.
+Rust ownership feels strict at first; then it feels like a safety net.
