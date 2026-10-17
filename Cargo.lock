@@ -7,6 +7,14 @@ name = "agent-loop"
 version = "0.1.0"
 
 [[package]]
+name = "borrow-checker-patterns"
+version = "0.1.0"
+
+[[package]]
+name = "borrowing"
+version = "0.1.0"
+
+[[package]]
 name = "cargo-workflow"
 version = "0.1.0"
 
@@ -19,11 +27,19 @@ name = "collections"
 version = "0.1.0"
 
 [[package]]
+name = "drop-and-raii"
+version = "0.1.0"
+
+[[package]]
 name = "enums-and-match"
 version = "0.1.0"
 
 [[package]]
 name = "functions-and-control-flow"
+version = "0.1.0"
+
+[[package]]
+name = "lifetimes"
 version = "0.1.0"
 
 [[package]]
@@ -48,6 +64,18 @@ version = "0.1.0"
 
 [[package]]
 name = "reviewing-agent-rust"
+version = "0.1.0"
+
+[[package]]
+name = "slices"
+version = "0.1.0"
+
+[[package]]
+name = "smart-pointers"
+version = "0.1.0"
+
+[[package]]
+name = "stack-heap-and-cost"
 version = "0.1.0"
 
 [[package]]

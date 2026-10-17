@@ -7,13 +7,13 @@
 | # | Lesson | Type | Ships | Status |
 |---|---|---|---|---|
 | 01 | [Ownership & move semantics](01-ownership-and-move/docs/en.md) | Build | prompt: ownership-explainer | ✅ Complete |
-| 02 | [Borrowing: &T and &mut T](02-borrowing/docs/en.md) | Build | — | 📝 Outline |
-| 03 | [Slices & views (zero-copy text)](03-slices/docs/en.md) | Build | — | 📝 Outline |
-| 04 | [Lifetimes without fear](04-lifetimes/docs/en.md) | Learn | — | 📝 Outline |
-| 05 | [Box, Rc, Arc, RefCell, Mutex](05-smart-pointers/docs/en.md) | Build | decision chart | 📝 Outline |
-| 06 | [Drop & RAII: resources that clean themselves up](06-drop-and-raii/docs/en.md) | Build | — | 📝 Outline |
-| 07 | [Stack vs heap & the real cost of clone()](07-stack-heap-and-cost/docs/en.md) | Learn | — | 📝 Outline |
-| 08 | [Borrow checker battle patterns](08-borrow-checker-patterns/docs/en.md) | Learn | skill: borrow-checker-coach | 📝 Outline |
+| 02 | [Borrowing: &T and &mut T](02-borrowing/docs/en.md) | Build | — | ✅ Complete |
+| 03 | [Slices & views (zero-copy text)](03-slices/docs/en.md) | Build | — | ✅ Complete |
+| 04 | [Lifetimes without fear](04-lifetimes/docs/en.md) | Learn | — | ✅ Complete |
+| 05 | [Box, Rc, Arc, RefCell, Mutex](05-smart-pointers/docs/en.md) | Build | decision chart | ✅ Complete |
+| 06 | [Drop & RAII: resources that clean themselves up](06-drop-and-raii/docs/en.md) | Build | — | ✅ Complete |
+| 07 | [Stack vs heap & the real cost of clone()](07-stack-heap-and-cost/docs/en.md) | Learn | — | ✅ Complete |
+| 08 | [Borrow checker battle patterns](08-borrow-checker-patterns/docs/en.md) | Learn | skill: borrow-checker-coach | ✅ Complete |
 
 Finish the phase with a quiz from your tutor (`/learn-rust quiz 02`), then move on.
 

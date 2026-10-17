@@ -95,6 +95,13 @@ Fully written lessons so far:
 - Phase 01 · [Modules, crates & visibility](phases/01-core-language/08-modules-and-crates/docs/en.md) — `cargo run -p modules-and-crates`
 - Phase 01 · [Project: token & word statistics CLI](phases/01-core-language/09-project-word-stats/docs/en.md) — `cargo run -p project-word-stats`
 - Phase 02 · [Ownership & move semantics](phases/02-ownership-and-memory/01-ownership-and-move/docs/en.md) — `cargo run -p ownership-and-move`
+- Phase 02 · [Borrowing: &T and &mut T](phases/02-ownership-and-memory/02-borrowing/docs/en.md) — `cargo run -p borrowing`
+- Phase 02 · [Slices & views (zero-copy text)](phases/02-ownership-and-memory/03-slices/docs/en.md) — `cargo run -p slices`
+- Phase 02 · [Lifetimes without fear](phases/02-ownership-and-memory/04-lifetimes/docs/en.md) — `cargo run -p lifetimes`
+- Phase 02 · [Box, Rc, Arc, RefCell, Mutex](phases/02-ownership-and-memory/05-smart-pointers/docs/en.md) — `cargo run -p smart-pointers`
+- Phase 02 · [Drop & RAII: resources that clean themselves up](phases/02-ownership-and-memory/06-drop-and-raii/docs/en.md) — `cargo run -p drop-and-raii`
+- Phase 02 · [Stack vs heap & the real cost of clone()](phases/02-ownership-and-memory/07-stack-heap-and-cost/docs/en.md) — `cargo run -p stack-heap-and-cost`
+- Phase 02 · [Borrow checker battle patterns](phases/02-ownership-and-memory/08-borrow-checker-patterns/docs/en.md) — `cargo run -p borrow-checker-patterns`
 - Phase 04 · [The build loop: idea → agent code → review → repeat](phases/04-agentic-rust/01-the-build-loop/docs/en.md)
 - Phase 04 · [Setting up a coding agent for a Rust repo (CLAUDE.md / AGENTS.md)](phases/04-agentic-rust/02-agent-setup/docs/en.md)
 - Phase 04 · [Hooks: automatic fmt, clippy & tests after every agent edit](phases/04-agentic-rust/03-hooks-and-guardrails/docs/en.md)
@@ -249,13 +256,13 @@ flowchart LR
 | # | Lesson | Type | Ships | Status |
 |---|---|---|---|---|
 | 01 | [Ownership & move semantics](phases/02-ownership-and-memory/01-ownership-and-move/docs/en.md) | Build | prompt: ownership-explainer | ✅ Complete |
-| 02 | [Borrowing: &T and &mut T](phases/02-ownership-and-memory/02-borrowing/docs/en.md) | Build | — | 📝 Outline |
-| 03 | [Slices & views (zero-copy text)](phases/02-ownership-and-memory/03-slices/docs/en.md) | Build | — | 📝 Outline |
-| 04 | [Lifetimes without fear](phases/02-ownership-and-memory/04-lifetimes/docs/en.md) | Learn | — | 📝 Outline |
-| 05 | [Box, Rc, Arc, RefCell, Mutex](phases/02-ownership-and-memory/05-smart-pointers/docs/en.md) | Build | decision chart | 📝 Outline |
-| 06 | [Drop & RAII: resources that clean themselves up](phases/02-ownership-and-memory/06-drop-and-raii/docs/en.md) | Build | — | 📝 Outline |
-| 07 | [Stack vs heap & the real cost of clone()](phases/02-ownership-and-memory/07-stack-heap-and-cost/docs/en.md) | Learn | — | 📝 Outline |
-| 08 | [Borrow checker battle patterns](phases/02-ownership-and-memory/08-borrow-checker-patterns/docs/en.md) | Learn | skill: borrow-checker-coach | 📝 Outline |
+| 02 | [Borrowing: &T and &mut T](phases/02-ownership-and-memory/02-borrowing/docs/en.md) | Build | — | ✅ Complete |
+| 03 | [Slices & views (zero-copy text)](phases/02-ownership-and-memory/03-slices/docs/en.md) | Build | — | ✅ Complete |
+| 04 | [Lifetimes without fear](phases/02-ownership-and-memory/04-lifetimes/docs/en.md) | Learn | — | ✅ Complete |
+| 05 | [Box, Rc, Arc, RefCell, Mutex](phases/02-ownership-and-memory/05-smart-pointers/docs/en.md) | Build | decision chart | ✅ Complete |
+| 06 | [Drop & RAII: resources that clean themselves up](phases/02-ownership-and-memory/06-drop-and-raii/docs/en.md) | Build | — | ✅ Complete |
+| 07 | [Stack vs heap & the real cost of clone()](phases/02-ownership-and-memory/07-stack-heap-and-cost/docs/en.md) | Learn | — | ✅ Complete |
+| 08 | [Borrow checker battle patterns](phases/02-ownership-and-memory/08-borrow-checker-patterns/docs/en.md) | Learn | skill: borrow-checker-coach | ✅ Complete |
 
 </details>
 
