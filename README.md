@@ -80,6 +80,11 @@ cargo run -p agent-loop                           # Phase 10 · Lesson 01: where
 Fully written lessons so far:
 
 - Phase 00 · [rustup, cargo & rust-analyzer](phases/00-setup-and-tooling/01-dev-environment/docs/en.md) — `cargo run -p verify-env`
+- Phase 00 · [Cargo: build, run, test, workspaces](phases/00-setup-and-tooling/02-cargo-workflow/docs/en.md) — `cargo run -p cargo-workflow`
+- Phase 00 · [clippy, rustfmt & reading compiler errors](phases/00-setup-and-tooling/03-clippy-and-fmt/docs/en.md) — `cargo run -p clippy-and-fmt`
+- Phase 00 · [Unit, integration & doc tests](phases/00-setup-and-tooling/04-testing-basics/docs/en.md) — `cargo run -p testing-basics`
+- Phase 00 · [Python → Rust mental map](phases/00-setup-and-tooling/05-python-to-rust-map/docs/en.md) — `cargo run -p python-to-rust-map`
+- Phase 00 · [Learning Rust with an AI tutor](phases/00-setup-and-tooling/06-ai-as-tutor/docs/en.md)
 - Phase 02 · [Ownership & move semantics](phases/02-ownership-and-memory/01-ownership-and-move/docs/en.md) — `cargo run -p ownership-and-move`
 - Phase 04 · [The build loop: idea → agent code → review → repeat](phases/04-agentic-rust/01-the-build-loop/docs/en.md)
 - Phase 04 · [Setting up a coding agent for a Rust repo (CLAUDE.md / AGENTS.md)](phases/04-agentic-rust/02-agent-setup/docs/en.md)
@@ -200,11 +205,11 @@ flowchart LR
 | # | Lesson | Type | Ships | Status |
 |---|---|---|---|---|
 | 01 | [rustup, cargo & rust-analyzer](phases/00-setup-and-tooling/01-dev-environment/docs/en.md) | Build | verify script | ✅ Complete |
-| 02 | [Cargo: build, run, test, workspaces](phases/00-setup-and-tooling/02-cargo-workflow/docs/en.md) | Build | cargo cheat sheet | 📝 Outline |
-| 03 | [clippy, rustfmt & reading compiler errors](phases/00-setup-and-tooling/03-clippy-and-fmt/docs/en.md) | Learn | prompt: explain-compiler-error | 📝 Outline |
-| 04 | [Unit, integration & doc tests](phases/00-setup-and-tooling/04-testing-basics/docs/en.md) | Build | test template | 📝 Outline |
-| 05 | [Python → Rust mental map](phases/00-setup-and-tooling/05-python-to-rust-map/docs/en.md) | Learn | cheat sheet | 📝 Outline |
-| 06 | [Learning Rust with an AI tutor](phases/00-setup-and-tooling/06-ai-as-tutor/docs/en.md) | Learn | skill: learn-rust | 📝 Outline |
+| 02 | [Cargo: build, run, test, workspaces](phases/00-setup-and-tooling/02-cargo-workflow/docs/en.md) | Build | cargo cheat sheet | ✅ Complete |
+| 03 | [clippy, rustfmt & reading compiler errors](phases/00-setup-and-tooling/03-clippy-and-fmt/docs/en.md) | Learn | prompt: explain-compiler-error | ✅ Complete |
+| 04 | [Unit, integration & doc tests](phases/00-setup-and-tooling/04-testing-basics/docs/en.md) | Build | test template | ✅ Complete |
+| 05 | [Python → Rust mental map](phases/00-setup-and-tooling/05-python-to-rust-map/docs/en.md) | Learn | cheat sheet | ✅ Complete |
+| 06 | [Learning Rust with an AI tutor](phases/00-setup-and-tooling/06-ai-as-tutor/docs/en.md) | Learn | skill: learn-rust | ✅ Complete |
 
 </details>
 

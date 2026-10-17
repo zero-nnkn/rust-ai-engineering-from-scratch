@@ -1,0 +1,11 @@
+[package]
+name = "clippy-and-fmt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+# Extra lint groups for this crate only. `pedantic` is noisy for everyday code,
+# but reading what it flags is a fast way to learn idioms. See Practice 3.
+[lints.clippy]
+needless_range_loop = "deny"

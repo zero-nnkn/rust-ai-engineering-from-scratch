@@ -7,11 +7,27 @@ name = "agent-loop"
 version = "0.1.0"
 
 [[package]]
+name = "cargo-workflow"
+version = "0.1.0"
+
+[[package]]
+name = "clippy-and-fmt"
+version = "0.1.0"
+
+[[package]]
 name = "ownership-and-move"
 version = "0.1.0"
 
 [[package]]
+name = "python-to-rust-map"
+version = "0.1.0"
+
+[[package]]
 name = "reviewing-agent-rust"
+version = "0.1.0"
+
+[[package]]
+name = "testing-basics"
 version = "0.1.0"
 
 [[package]]

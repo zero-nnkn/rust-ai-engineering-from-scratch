@@ -1,0 +1,9 @@
+[package]
+name = "cargo-workflow"
+version = "0.1.0"
+edition = "2021"
+description = "Phase 00 · Lesson 02: one package, a library and a binary"
+
+# No dependencies on purpose. Practice 3 shows how to add one.
+[dependencies]
+
